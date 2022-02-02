@@ -1,6 +1,6 @@
 # Тестовое задание в АО «Информационная компания «Кодекс»
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ссылка на gh-pages: [https://imjogan.github.io/kodeks/](https://imjogan.github.io/kodeks/)
 
 ## Available Scripts
 
