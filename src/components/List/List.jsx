@@ -11,7 +11,7 @@ function List({ items, theme, sortIndex }) {
     return [...items].sort((a, b) => currentSortFn(a[key], b[key]));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items, sortIndex, sortFunctions]);
-console.log(sortedItems.length)
+
   return (
     <ul className="list">
       {sortedItems.length > 0 ? (
