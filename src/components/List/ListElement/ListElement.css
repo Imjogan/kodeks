@@ -1,0 +1,33 @@
+.list-element {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.list-element_theme_light {
+  color: #fff;
+}
+
+.list-element__text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.list-element__count {
+  margin-left: 20px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.list-element__count_theme_light {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 1px rgba(255, 255, 255, 0.2);
+  color: #000;
+}

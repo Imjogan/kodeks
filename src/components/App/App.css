@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  min-width: 320px;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  grid-template-rows: repeat(2, 50vh);
+  position: relative;
+}
+
+.app__select-wrapper {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 10;
+}
