@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bef8bbd5.css",
-    "main.js": "/static/js/main.dcf244b1.js",
-    "static/media/MullerMedium.woff": "/static/media/MullerMedium.e4afbbd09b05b2b18798.woff",
-    "static/media/MullerBold.woff": "/static/media/MullerBold.53c7c067015e4cf16c43.woff",
-    "static/media/MullerRegular.woff": "/static/media/MullerRegular.3582a987cefb6de667ff.woff",
-    "static/media/MullerMedium.woff2": "/static/media/MullerMedium.f6aac750cee75133b7dc.woff2",
-    "static/media/MullerBold.woff2": "/static/media/MullerBold.316a8c43859c0af04035.woff2",
-    "static/media/MullerRegular.woff2": "/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
-    "index.html": "/index.html",
-    "main.bef8bbd5.css.map": "/static/css/main.bef8bbd5.css.map",
-    "main.dcf244b1.js.map": "/static/js/main.dcf244b1.js.map"
+    "main.css": "/kodeks/static/css/main.d16cc916.css",
+    "main.js": "/kodeks/static/js/main.dcf244b1.js",
+    "static/media/MullerMedium.woff": "/kodeks/static/media/MullerMedium.e4afbbd09b05b2b18798.woff",
+    "static/media/MullerBold.woff": "/kodeks/static/media/MullerBold.53c7c067015e4cf16c43.woff",
+    "static/media/MullerRegular.woff": "/kodeks/static/media/MullerRegular.3582a987cefb6de667ff.woff",
+    "static/media/MullerMedium.woff2": "/kodeks/static/media/MullerMedium.f6aac750cee75133b7dc.woff2",
+    "static/media/MullerBold.woff2": "/kodeks/static/media/MullerBold.316a8c43859c0af04035.woff2",
+    "static/media/MullerRegular.woff2": "/kodeks/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
+    "index.html": "/kodeks/index.html",
+    "main.d16cc916.css.map": "/kodeks/static/css/main.d16cc916.css.map",
+    "main.dcf244b1.js.map": "/kodeks/static/js/main.dcf244b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef8bbd5.css",
+    "static/css/main.d16cc916.css",
     "static/js/main.dcf244b1.js"
   ]
 }
