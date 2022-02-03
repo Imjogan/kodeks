@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kodeks/static/css/main.9c3aad2f.css",
-    "main.js": "/kodeks/static/js/main.1b100c23.js",
+    "main.css": "/kodeks/static/css/main.0438536b.css",
+    "main.js": "/kodeks/static/js/main.ea1e3142.js",
     "static/media/MullerMedium.woff": "/kodeks/static/media/MullerMedium.e4afbbd09b05b2b18798.woff",
     "static/media/MullerBold.woff": "/kodeks/static/media/MullerBold.53c7c067015e4cf16c43.woff",
     "static/media/MullerRegular.woff": "/kodeks/static/media/MullerRegular.3582a987cefb6de667ff.woff",
@@ -9,11 +9,11 @@
     "static/media/MullerBold.woff2": "/kodeks/static/media/MullerBold.316a8c43859c0af04035.woff2",
     "static/media/MullerRegular.woff2": "/kodeks/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
     "index.html": "/kodeks/index.html",
-    "main.9c3aad2f.css.map": "/kodeks/static/css/main.9c3aad2f.css.map",
-    "main.1b100c23.js.map": "/kodeks/static/js/main.1b100c23.js.map"
+    "main.0438536b.css.map": "/kodeks/static/css/main.0438536b.css.map",
+    "main.ea1e3142.js.map": "/kodeks/static/js/main.ea1e3142.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c3aad2f.css",
-    "static/js/main.1b100c23.js"
+    "static/css/main.0438536b.css",
+    "static/js/main.ea1e3142.js"
   ]
 }
