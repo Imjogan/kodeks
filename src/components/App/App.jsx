@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import Container from '../Container';
-import Input from '../Input';
+import Form from '../Form';
 import List from '../List';
 import SortSelect from '../SortSelect';
 import defineValue from '../../utils/defineValue';
@@ -14,7 +14,7 @@ function App() {
   const [numberArr, setNumberArr] = useState([]);
   const [combinedArr, setCombinedArr] = useState([]);
 
-  const handleInputStateLift = (value) => {
+  const handleStateLift = (value) => {
     const isSomething = defineValue(value);
 
     switch (isSomething) {
@@ -38,7 +38,7 @@ function App() {
         <SortSelect setSortIndex={setSortIndex} sortIndex={sortIndex} />
       </div>
       <Container>
-        <Input handleInputStateLift={handleInputStateLift} />
+        <Form handleStateLift={handleStateLift} />
       </Container>
       <Container color="peach">
         <List sortIndex={sortIndex} items={stringArr} />

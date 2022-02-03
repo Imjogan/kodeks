@@ -1,21 +1,21 @@
-import './Input.css';
+import './Form.css';
 import { useState, useCallback } from 'react';
 
-function Input({ handleInputStateLift }) {
-  const [inputValue, setInputValue] = useState('');
+function Form({ handleStateLift }) {
+  const [value, setValue] = useState('');
 
   const handleInputChange = useCallback(
     (evt) => {
-      setInputValue(evt.target.value);
+      setValue(evt.target.value);
     },
-    [setInputValue]
+    [setValue]
   );
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    if (inputValue.trim() !== '') {
-      handleInputStateLift(inputValue.trim());
-      setInputValue('');
+    if (value.trim() !== '') {
+      handleStateLift(value.trim());
+      setValue('');
     }
   };
 
@@ -23,7 +23,7 @@ function Input({ handleInputStateLift }) {
     <form onSubmit={handleSubmit} className="form">
       <input
         onChange={handleInputChange}
-        value={inputValue}
+        value={value}
         className="form__input"
         placeholder="Пишите здесь..."
       />
@@ -31,4 +31,4 @@ function Input({ handleInputStateLift }) {
   );
 }
 
-export default Input;
+export default Form;

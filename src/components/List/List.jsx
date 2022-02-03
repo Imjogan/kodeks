@@ -5,6 +5,7 @@ import ListElement from './ListElement';
 import { sortOptions, sortFunctions } from '../../utils/sortUtils';
 
 function List({ items, theme, sortIndex }) {
+  
   const sortedItems = useMemo(() => {
     const { key } = sortOptions[sortIndex];
     const currentSortFn = sortFunctions[key];

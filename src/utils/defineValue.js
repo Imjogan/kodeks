@@ -1,11 +1,11 @@
 const defineValue = (value) => {
-  if (/^[0-9]+$/.test(value)) {
+  if (/^\d+$/.test(value)) {
     return 'isNumber';
   }
-  if (/(?=.*\d)(?=.*[а-яА-ЯёЁa-zA-Z\s])/i.test(value)) {
-    return 'isCombined';
+  if (/^[a-zа-яё\s]+$/i.test(value)) {
+    return 'isString';
   }
-  return 'isString';
+  return 'isCombined';
 };
 
 export default defineValue;
